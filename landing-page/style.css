@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+   background-image: url(https://ftr.imgix.net/FQBOc9Uh5e22pHikmfCJR/3ce3022343c7ad918545a6a2e01f36b5/homepage-pingzhu-hero-bg-opt-v2.jpg?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=1920&s=ae7331908c13b70917d2f5b72adea99b);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   
+}
+.logo{
+    width: 50%;
+}
+.logo img{
+    height: 30px;
+    width: 170px;
+}
+nav{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 20px;
+}
+ul li{
+    list-style-type: none;
+    padding: 10px;
+    
+}
+.head{
+    text-align: center;
+    padding: 30px 0 200px;
+    /* color: white; */
+}
+.head h1{
+    font-size: 70px;
+    padding: 20px;
+    font-weight: bold;
+
+}
+.head p{
+    /* margin: 20px; */
+    font-size: 25px;
+    font-weight: 700;
+}
+.sty-btn {
+    /* width: 150px; */
+    display: inline-grid;
+    background-color: #0f866c !important;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 30px;
+    color: #fff;
+}
+section{
+    margin: 50px;
+}
+.block {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+}
+.img img {
+    height: 300px;
+    width: 300px;
+}
+.text {
+    display: grid;
+    place-items: center;
+}
+.text p img{
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 10px;
+}
+.container.flex-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+.flex-head{
+    text-align: center;
+}
+.img-block img{
+    height: 180px;
+    width: 410px;
+   
+}
+.grn-txt{
+    color: #0f866c;
+    /* text-align: center; */
+    margin: 20px 0;
+    display: block;
+}
+.img-block{
+    margin-bottom: 20px;
+}
+.map{
+    background-image: url(https://ftr.imgix.net/7lwGiNKX1HxPubuMWDIMbq/b59b91270f571645d72011e317c60ff5/map-server-home-desktop-_2x.png?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=1754&s=b5c060c63c4e57c1b42cc5188bedd123);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+}
+.right-data {
+    text-align: right;
+    margin-right: 50px;
+}
+@media (max-width:1100px) {
+    .container.flex-box{
+        display: block;
+    }
+
+}
+@media (max-width:767px) {
+    .block{
+        display: block;
+    }
+    .img, .img-block {
+        display: grid;
+        place-items: center;
+    }
+}
